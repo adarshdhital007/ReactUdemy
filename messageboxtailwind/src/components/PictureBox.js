@@ -5,8 +5,8 @@ const PictureBox = () => {
   return (
     <div >
       <div className='p-4 color-black ring-black rounded-full ring-4' style={{
-  width: '100px', 
-  height: '100px',
+  width: '50px', 
+  height: '50px',
   backgroundImage: `url(${image})`,
   backgroundSize: 'cover',
   borderRadius: '50%', 

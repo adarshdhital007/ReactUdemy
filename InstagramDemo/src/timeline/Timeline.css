@@ -9,3 +9,14 @@
 .timeline-right{
     flex:0.3;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .timeline{
+        margin-top: 64px;
+        margin-left:50px;
+        display:flex;
+    }
+
+  
+  }

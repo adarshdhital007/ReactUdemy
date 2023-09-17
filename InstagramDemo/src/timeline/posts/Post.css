@@ -47,3 +47,23 @@
   .postIcon :hover {
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 600px) {
+   .post__image{
+    width:50%;
+   }
+
+   .postIcon {
+    cursor: pointer;
+  }
+
+  .postIcon {
+    padding: 7px;
+    font-size: 30px;
+  }
+
+  .post__header {
+    flex-direction:column;
+  }
+
+  }

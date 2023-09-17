@@ -60,3 +60,36 @@
     background-color: rgba(255, 255, 255, 0.424);
   }
   
+  @media (max-width: 600px) {
+    .sidenav {
+      display:flex;
+      flex-direction: column;
+    }
+  
+    
+    .home-label{
+      display:none;
+    }
+    .search-label{
+      display:none;
+    }
+    .explore-label{
+      display:none;
+    }
+    .reels-label{
+      display:none;
+    }
+    .messages-label{
+      display:none;
+    }
+    .notifications-label{
+      display:none;
+    }
+    .create-label{
+      display:none;
+    }
+
+    .sidenav-button {
+      width: 30%;
+    }
+  }
